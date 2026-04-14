@@ -1,7 +1,7 @@
 {
   "name": "last-lines",
   "type": "module",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "packageManager": "pnpm@10.33.0",
   "description": "Read the last N lines from a file without loading the entire file into memory.",
   "author": "luke358 <luke358@qq.com>",
