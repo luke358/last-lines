@@ -35,9 +35,6 @@
     "typecheck": "tsc",
     "prepare": "simple-git-hooks"
   },
-  "dependencies": {
-    "vitest": "catalog:testing"
-  },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:cli",
     "@antfu/ni": "catalog:cli",
