@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.4",
   "packageManager": "pnpm@10.33.0",
-  "description": "_description_",
+  "description": "Read the last N lines from a file without loading the entire file into memory.",
   "author": "luke358 <luke358@qq.com>",
   "license": "MIT",
   "homepage": "https://github.com/luke358/last-lines#readme",
@@ -34,6 +34,9 @@
     "test": "vitest",
     "typecheck": "tsc",
     "prepare": "simple-git-hooks"
+  },
+  "dependencies": {
+    "vitest": "catalog:testing"
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:cli",

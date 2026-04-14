@@ -58,6 +58,10 @@ catalogs:
 importers:
 
   .:
+    dependencies:
+      vitest:
+        specifier: catalog:testing
+        version: 4.1.4(@types/node@25.6.0)(vite@8.0.8(@types/node@25.6.0)(esbuild@0.27.1)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.3))
     devDependencies:
       '@antfu/eslint-config':
         specifier: catalog:cli
@@ -101,9 +105,6 @@ importers:
       vite:
         specifier: catalog:cli
         version: 8.0.8(@types/node@25.6.0)(esbuild@0.27.1)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.3)
-      vitest:
-        specifier: catalog:testing
-        version: 4.1.4(@types/node@25.6.0)(vite@8.0.8(@types/node@25.6.0)(esbuild@0.27.1)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.3))
 
 packages:
 
