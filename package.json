@@ -1,7 +1,7 @@
 {
   "name": "last-lines",
   "type": "module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "packageManager": "pnpm@10.33.0",
   "description": "_description_",
   "author": "luke358 <luke358@qq.com>",
